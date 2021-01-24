@@ -1,0 +1,30 @@
+body {
+    background-color: black;
+}
+
+.navbar {
+    background-color: transparent !important;
+    position: absolute;
+    z-index: 1000;
+    width: 100%;
+  }
+
+nav a {
+    color: white !important;
+}
+
+hr {
+    border: 1px solid #17a2b8;
+}
+
+i {
+    color: white;
+}
+
+p {
+    color: white;
+}
+
+.icon-container {
+    background-color: #17a2b8;
+}
