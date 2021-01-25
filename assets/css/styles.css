@@ -1,24 +1,16 @@
+/*Styles for main tags and classes*/
+
 body {
     background-color: black;
-}
-
-.navbar {
-    background-color: transparent !important;
-    position: absolute;
-    z-index: 1000;
-    width: 100%;
-}
-
-h5 {
-    color:  white;
-}
-
-nav a {
-    color: white !important;
+    font-family: 'Open Sans', sans-serif;
 }
 
 hr {
     border: 1px solid #17a2b8;
+}
+
+h5 {
+    color:  white;
 }
 
 i {
@@ -29,12 +21,23 @@ p {
     color: white;
 }
 
+ul {
+    list-style-type: none;
+}
+
 .icon-container {
     background-color: #17a2b8;
 }
 
-ul {
-    list-style-type: none;
+.navbar {
+    background-color: transparent !important;
+    position: absolute;
+    z-index: 1000;
+    width: 100%;
+}
+
+nav a {
+    color: white !important;
 }
 
 /* Styles for the span with the function go-up*/
