@@ -36,3 +36,30 @@ p {
 ul {
     list-style-type: none;
 }
+
+/* Styles for the span with the function go-up*/
+
+.go-up {
+    width: 3rem;
+    height: 3rem;
+	display: none;
+	padding: 20px;
+    background: #ffffff;
+    border-radius: 100%;
+    opacity: .5;
+	font-size: 20px;
+	color: #fff;
+	cursor: pointer;
+	position: fixed;
+	bottom: 5rem;
+	right: 0.5rem;
+}
+
+span i {
+    position: fixed;
+	bottom: 5rem;
+    right: 0.5rem;
+    color: black; 
+    display: none;
+	padding: 0.375rem;
+}
